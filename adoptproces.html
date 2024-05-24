@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link til CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Link til Javascript -->
+    <script src="script.js" defer></script>
+
+    <!-- Link til fonte fra Google -->
+    <!-- Nunito Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <!-- Monteserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <title>adoptionsprocessen</title>
+</head>
+<body class="body_emilie">
+   
+    <!-- Navigationsbar -->
+    <header>
+        <img class="BONE-adoption" src="img/BONE.png" alt="#">
+        <a href="index.html"><img class="logo" src="img/logo.png"></a>
+
+        <div class="dropdown-container">
+            <div class="dropdown">
+                <button class="dropbtn">ADOPTION</button>
+                <div class="dropdown-content">
+                    <a href="adoptionsdyrene.html">Dyrene</a>
+                    <a href="priser.html">Priser</a>
+                    <a href="adoptproces.html">Alt om adoption</a>
+                    <a href="quiz.html">Test: Hvilket dyr passer til dig?</a>
+                    
+                </div>
+            </div>
+            <div class="dropdown1">
+                <a href="dyrinoed.html" > <button class="dropbtn">DYR I NØD</button></a>
+                 <div class="dropdown-content">
+                  
+                 </div>
+             </div>
+            <div class="dropdown1">
+                <a href="pleje.html" > <button class="dropbtn">PASNING OG PLEJE</button></a>
+                 <div class="dropdown-content">
+                  
+                 </div>
+             </div>
+        
+            <div class="dropdown1">
+                <a href="OmOs.html" > <button class="dropbtn">OM OS</button></a>
+                 <div class="dropdown-content">
+                
+                </div>
+            </div>
+            
+        </div>
+
+      
+    </header>
+
+    <main class="main_emilie">
+        
+        <!-- Overskrift -->
+        <h1 class="h1_emilie" id="adoptionsprocessen_overskrift">ADOPTIONSPROCESSEN</h1>
+            
+        <!-- De 4 kasser med valg af dyr -->
+        <section id="de4kasser">
+            
+            <div>
+                <a href="#"><img id="hundKnap" src="img/hund_knap.png" alt="Hund" onclick="skiftHundKnap()"></a>
+                HUND
+            </div>
+
+            <div>
+                <a href="#"><img id="katKnap" src="img/kat_knap.png" alt="kat" onclick="skiftKatKnap()"></a>
+                KAT
+            </div>
+
+            <div>
+                <a href="#"><img id="gnaverKnap" src="img/gnaver_knap.png" alt="gnavere" onclick="skiftGnaverKnap()"></a>
+                GNAVER
+            </div>
+
+            <div>
+                <a href="#"><img id="krybdyrKnap" src="img/krybdyr_knap.png" alt="krybdyr" onclick="skiftKrybdyrKnap()"></a>
+                KRYBDYR
+            </div>
+        </section>
+
+        <!-- De 6 bokse med processen -->
+        <section id="proces_boks_container">
+            <div class="proces_boks">
+                <h1>1</h1>
+                <p class="proces_tekst">Hundene kommer ind fra dyreværnssager eller fra private hjem, 
+                    hvor ejeren ikke kan have hunden på grund af fx sygdom, skilsmisse, 
+                    flytning, manglende tid eller dødsfald.</p>
+            </div>
+
+            <div class="proces_boks">
+                <h1>2</h1>
+                <p class="proces_tekst">Hunden gennemgår en sundhedsundersøgelse af vores dyrlæge. Alle hunde er chipmærkede, 
+                    registreret i Dansk Hunderegister og har ajourførte vacciner. Vores hundeteam kortlægger 
+                    samtidig hundens bagage og arbejder målrettet med de specifikke problemer, der kan være fra 
+                    tidligere hjem.</p>
+            </div>
+
+            <div class="proces_boks">
+                <h1>3</h1>
+                <p class="proces_tekst">Når I finder en hund, som passer til jeres rammer og ønsker, ringer I til internatet. 
+                    Herefter laver vi et telefoninterview for at se, om dit hjem kan være det rette, 
+                    blivende hjem for hunden. Hvis det umiddelbart er at godt match, bliver I inviteret til en 
+                    samtale på internatet.</p>
+            </div>
+
+            <div class="proces_boks">
+                <h1>4</h1>
+                <p class="proces_tekst">Til samtalen skal alle husstandsmedlemmer være til stede. Hvis alt går godt, vil I få mulighed 
+                    for at møde hunden, være sammen med den og tage den med på en gåtur. Hvis I allerede har en hund, 
+                    skal den også med til mødet.</p>
+            </div>
+
+            <div class="proces_boks">
+                <h1>5</h1>
+                <p class="proces_tekst">Samtalen er uforpligtende både for potentiel ny ejer og internat. Derfor kan der være 
+                    brug for betænkningstid fra begge parter. Uanset hvilke beslutning der træffes, 
+                    er det altid ud fra hundens tarv.</p>
+            </div>
+
+            <div class="proces_boks">
+                <h1>6</h1>
+                <p class="proces_tekst">Hunden skal vænne sig til hjemmet. Den er et produkt af dens tidligere oplevelser, 
+                    og har brug for tid til at vænne sig til det nye hjem. Derfor skal I have sikret 
+                    ferie eller fri, så hunden får en chance for at kende sine nye omgivelser, 
+                    inden den skal være alene i sit nye hjem.</p>
+            </div>
+
+        </section>
+    </main>
+
+     <!-- Footer -->
+     <footer class="footer_proces">
+        <section id="text_right">
+            <!-- Åbningstider -->
+            <section class="footer_info">
+                <p class="footer_overskrift">ÅBNINGSTIDER:</p>
+                <p> Telefon: Hverdage 10-14 <br>
+                    Internatet: Hverdage 10-17 <br>
+                    Weekender 10-14:30</p>
+            </section>
+
+            <!-- Adresse -->
+            <section class="footer_info">
+                <p class="footer_overskrift">ADRESSE:</p>
+                <p> Dyrenes Beskyttelse Aarhus <br>
+                    Tingskoven 5 <br>
+                    8310 Tranbjerg J</p>
+            </section>
+        </section>
+
+        <!-- Logo -->
+        <div id="logo_footer">
+            <img src="img/logo_footer.png" alt="#">
+        </div>
+
+        <section>
+            <!-- Kontakt -->
+            <section class="footer_info">
+                <p class="footer_overskrift">KONTAKT:</p>
+                <p> Telefon: 87 33 44 40 <br>
+                    Mail: aarhus@dyrenesbeskyttelse.dk</p>
+                
+                    <!-- SOME links -->
+                <div class="footer_grafik">
+                    <a href="https://www.linkedin.com/company/dyrenes-beskyttelse/" target="_blank"><img src="img/linkedin.png" alt="linkedin" class="some_image"></a>
+                    <a href="http://facebook.com" target="_blank"><img src="img/facebook.png" alt="Facebook" class="some_image"></a>
+                    <a href="http://www.instagram.com" target="_blank"><img src="img/instagram.png" alt="Instagram" class="some_image"></a>
+                    <a href="http://www.twitter.com" target="_blank"><img src="img/x.png" alt="X" class="some_image"></a>
+                </div>
+            </section>
+            
+            <!-- Dyr i nød -->
+            <section class="footer_info">
+                <p class="footer_grafik"><img src="img/hospital.png" alt="#">Dyr i nød ring: 1812</p>
+            </section>
+            
+        </section>
+
+    </footer>  
+    
+    
+    
+
+</body>
+</html>

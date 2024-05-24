@@ -1,0 +1,3073 @@
+
+/* ---- Basic CSS reset ------ */
+*,
+:after,
+:before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 100%;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+.index-body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-image: url('img/forside\ baggrunddddddddd.png'); /* Path to your background image */
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-repeat: no-repeat;
+
+}
+
+.body-priser{
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-image: url('img/priser.png'); /* Path to your background image */
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-repeat: no-repeat;
+}
+
+.body-OmOs{
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-image: url('img/OM\ OS.png'); /* Path to your background image */
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-repeat: no-repeat;
+}
+
+.body-404{
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-image: url('img/404\ baggrund.png'); /* Path to your background image */
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-repeat: no-repeat;
+}
+
+
+.body-pleje{
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-image: url('img/Pelsogpleje-baggrund.png'); /* Path to your background image */
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-repeat: no-repeat;
+
+}
+
+.body-dyrinoed{
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-image: url('img/Dyr\ i\ nød-baggrund.png'); /* Path to your background image */
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+/* HEADER*/
+
+
+.logo{
+position: absolute;
+width: 232px;
+height: 232px;
+left: 80px;
+top: 33px;
+z-index: 999;
+}
+
+/*-------Menu----------*/
+
+.dropdown-container {
+  display: flex;
+  gap: 60px; 
+  position: absolute;
+width: 143px;
+height: 30px;
+left: 441px;
+top: 77px;
+}
+
+/* Container for individual dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style for dropdown button */
+.dropbtn {
+  background-color: transparent;
+  color:#801100;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 180px;
+  font-weight: 400px;
+}
+
+/* Container for dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: 180px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+/* Style for links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  border-radius: 15px 15px 15px 15px;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button on hover */
+.dropdown:hover .dropbtn {
+  background-color:white;
+  border-radius: 15px 15px 0px 0px;
+}
+
+/*-------dropdown for sidste 2 punkter*/
+
+/* Change the background color of the dropdown button on hover */
+.dropdown1:hover .dropbtn {
+  background-color:white;
+  border-radius: 15px 15px 15px 15px;
+}
+
+
+
+
+.forsidebillede{
+position: absolute;
+width: 585px;
+height: 860px;
+left: 813px;
+top: 222px;
+}
+
+
+
+.overskrift{
+position: absolute;
+width: 908px;
+height: 74px;
+left: 59px;
+top: 450px;
+
+
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 74px;
+
+
+color: #801100;
+}
+
+
+.underoverskrift{
+position: absolute;
+width: 542px;
+height: 108px;
+left: 147px;
+top: 560px;
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 36px;
+
+color: #000000;
+text-align: center;
+}
+
+
+.knap1 {
+  position: absolute;
+  width: 286px;
+  height: 70px;
+  left: 284px;
+  top: 690px;
+  background: #801100;
+  border-radius: 30px;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.knap1 p {
+  color: white;
+  font-weight: 500;
+}
+
+.knap1:hover{
+  background-color:#980E27;
+  cursor: pointer;
+}
+
+
+.underoverskrift2{
+position: absolute;
+width: 300x;
+height: 65px;
+left: 600px;
+top: 1163px;
+
+
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 65px;
+
+color: #980E27;
+}
+
+.bokseee{
+width: 100%;
+height: 400px;
+display: flex;
+justify-content: space-between;
+z-index: 999;
+margin-top: 1300px;
+
+}
+
+.boks1{
+box-sizing: border-box;
+
+position: relative;
+width: 326px;
+height: 373px;
+margin-left: 7%;
+z-index: 999;
+text-align: center;
+
+
+background: white;
+border: 2px solid #980E27;
+border-radius: 30px;
+
+}
+
+
+
+.boks2{
+box-sizing: border-box;
+position: absolute;
+width: 326px;
+height: 373px;
+margin-left: 39%;
+
+
+background: white;
+border: 2px solid #980E27;
+border-radius: 30px;
+
+}
+
+
+.boks3{
+box-sizing: border-box;
+position: absolute;
+width: 326px;
+height: 373px;
+margin-left: 70%;
+
+
+background: white;
+border: 2px solid #980E27;
+border-radius: 30px;
+  }
+
+.text1, .text2 {
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+
+.text1 {
+    top: 90px; 
+    font-size: 60px;
+}
+
+.text2 {
+    top: 240px; 
+    font-size: 30px;
+    margin: 0px;
+}
+
+
+.rectangle{
+
+position: absolute;
+width: 100%;
+height: 564px;
+left: 0px;
+top: 3000px;
+background: #F9614D;
+}
+
+
+.logoirektangel{
+position: absolute;
+width: 560px;
+left: 455px;
+top: 3003px;
+z-index: 9;
+}
+
+
+
+.rectangle h1{
+  color: #801100;
+  position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 78%;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+    z-index: 10;
+}
+
+.rectangle p{
+color: #801100;
+font-size: 48px;
+left: 37%; 
+position: absolute;
+margin-top: 50px;
+font-weight:600;
+z-index: 10;
+}
+
+
+.kattebillede{
+
+position: absolute;
+width: 50%;
+left: 0px;
+top: 3563px;
+}
+
+
+.kaninbillede{
+position: absolute;
+width: 50%;
+height: 578px;
+left: 50%;
+top: 3563px;
+}
+
+
+
+
+
+.footer-forside{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 1900px;
+
+  color: white;
+}
+
+.footer-oo{
+  position:absolute;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+
+  color: white;
+}
+
+/* Skaber plads mellem elementerne i footeren */
+footer section{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 380px;
+}
+
+/* Gør overskrifterne i footeren bold */
+.footer_overskrift{
+  font-weight: bold;
+}
+
+.footer_grafik{
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  align-items: center;
+}
+
+#logo_footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#text_right{
+  text-align: right;
+}
+
+
+
+
+
+/*---------------OM OS----------------*/
+
+.bone{
+
+position: absolute;
+width: 98.69px;
+height: 26px;
+left: 1279px;
+top: 115px;
+}
+
+
+.rektangel-OmOs{
+  height: 350px;
+  width: 100%;
+  background-color:#D85C5A; 
+  margin-top: 300px;
+  position: absolute;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;
+}
+
+.rektangel-OmOs img{
+height: 354px;
+position: absolute;
+}
+
+.rektangel-OmOs p{
+font-size: 35px;
+position: absolute;
+color: #801100;
+}
+
+.flexbokse-OmOs {
+  position: absolute;
+  height: 400px;
+  width: 100%;
+  margin-top: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Distributes space between items */
+  align-items: center; /* Aligns items vertically center */
+  padding: 0 9%;  
+}
+
+.flexboks {
+  background-color: white;
+  height: 400px;
+  width: 300px;
+  border-radius: 10%;
+  display: flex; /* Added to enable flexbox */
+  flex-direction: column; /* Ensure the text is centered vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.flexboks h1{
+margin-top: 30px;
+color: #801100;
+font-family: "Nunito Sans", sans-serif;
+}
+
+.flexboks p{
+padding: 20px;
+line-height: 1.5;
+font-size: 18px;
+  }
+
+.OOB1{
+
+position: absolute;
+width: 1100px;
+height: 732.88px;
+left: -122px;
+top: 1588px;
+z-index: -999;
+}
+
+.OOB2{
+position: absolute;
+width: 953px;
+height: 529px;
+left: 183px;
+top: 2440px;
+z-index: -999;
+}
+
+
+.OOB3{
+position: absolute;
+height: 545px;
+left: 630px;
+top: 3043px;
+z-index: -999;
+}
+
+
+.OMT1{
+position: absolute;
+width: 517px;
+height: 265px;
+left: 703px;
+top: 1300px;
+
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 44px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+
+
+.OMT2{
+position: absolute;
+width: 547px;
+height: 132px;
+left: 829px;
+top: 2208px;
+
+
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 44px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+
+
+.OMT3{
+position: absolute;
+width: 537px;
+height: 132px;
+left: 91px;
+top: 3382px;
+
+
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 44px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.dyr-overskrift{
+position: absolute;
+width: 600px;
+height: 65px;
+left: 453px;
+top: 1820px;
+
+font-style: normal;
+font-weight: 700;
+font-size: 54px;
+line-height: 74px;
+
+
+color: white;
+
+}
+
+
+/*--------------Priser------------*/
+
+.Overskrift-priser{
+position: absolute;
+width: 640px;
+height: 148px;
+left: 436px;
+top: 292px;
+font-family: "Nunito Sans", sans-serif;
+
+
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 74px;
+text-align: center;
+
+color: #801100;
+}
+
+.rektangel-priser{
+background-color:#D85C5A;
+position: absolute;
+height: 350px;
+width: 100%;
+margin-top: 640px;
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+.rektangel-priser p{
+  align-self: center;
+display: flex;
+color: #801100;
+margin-left: 200px;
+font-size: 23px;
+}
+
+.overskriftpriser1{
+  position: absolute;
+  margin-top: 1100px;
+  margin-left: 181px;
+  color:#801100;
+}
+
+/*-----øverste bokse-----------*/
+
+.prisboks{
+position: absolute;
+
+width: 1144px;
+height: 1000px;
+left: 181px;
+top: 1200px;
+display: flex;
+flex-direction:column;
+gap: 30px;
+}
+
+
+.pris-hund{
+width: 100%;
+height: 200px;
+background-color: white;
+border-radius: 15px;
+display: flex;
+}
+
+.overskrift-hund{
+font-size: 20px;
+margin-left: 30px;
+margin-top: 40px;
+}
+
+.overskrift-krybdyr{
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 40px;
+  }
+
+.overskrift-kat{
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 40px;
+  width: 300px;
+  }
+
+  .overskrift-gnaver{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 40px;
+    width: 600px;
+    z-index: 99999;
+  }
+
+  .h1-under-g {
+    font-size: 15px;
+    font-weight: normal;
+    position: absolute;
+    width: 838px;
+    height: 112px;
+    left: 230px;
+    top: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+  .h1-under {
+    font-size: 15px;
+    font-weight: normal;
+    position: absolute;
+    width: 838px;
+    height: 112px;
+    left: 230px;
+    top: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.h1-under-k{
+  font-size: 15px;
+  font-weight:normal;
+  position: absolute;
+  width: 838px;
+  height: 112px;
+  left: 230px;
+  top: 260px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  
+  color: #000000;
+  
+  
+  }
+
+.pris-hund p{
+  color: #801100;
+  font-weight: 400px;
+}
+.kort-streg{
+position: absolute;
+width: 161px;
+height: 0px;
+left: 120px;
+top: 100px;
+
+border: 1.5px solid #801100;
+transform: rotate(-90deg);
+}
+.kort-streg-kat{
+  position: absolute;
+  width: 161px;
+  height: 0px;
+  left: 120px;
+  top: 330px;
+  
+  border: 1.5px solid #801100;
+  transform: rotate(-90deg);
+  }
+  .kort-streg3{
+    position: absolute;
+    width: 161px;
+    height: 0px;
+    left: 120px;
+    top: 835px;
+    
+    border: 1.5px solid #801100;
+    transform: rotate(-90deg);
+    }
+  .lang-streg1{
+    position: absolute;
+    width: 161px;
+    height: 0px;
+    left: 120px;
+    top: 580px;
+    
+    border: 1.5px solid #801100;
+    transform: rotate(-90deg);
+    }
+
+.pris-kat{
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  }
+
+  .pris-kat p{
+color: #801100;
+  }
+
+  .pris-gnaver{
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    }
+
+    .pris-gnaver p {
+      color:#801100;
+    }
+
+    .pris-krybdyr{
+      width: 100%;
+      height: 200px;
+      background-color: white;
+      border-radius: 15px;
+      display: flex;
+      }
+
+      
+
+      .pris-krybdyr p{
+color: #801100;
+      }
+
+
+
+  .indeidiv{
+    height: 100%;
+    width: 200px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px 0px 0px 15px;
+          }
+
+/*nummer 2 bokse*/
+
+.prisboks2{
+  position: absolute;
+  
+  width: 1144px;
+  height: 1000px;
+  left: 181px;
+  top: 2600px;
+  display: flex;
+  flex-direction:column;
+  gap: 30px;
+  }
+  
+  
+  .pris-hund2{
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  }
+  
+  .overskrift-hund2{
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 40px;
+  }
+  
+  .overskrift-krybdyr2{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 40px;
+    }
+  
+  .overskrift-kat2{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 40px;
+    width: 300px;
+    }
+  
+    .overskrift-gnaver2{
+      font-size: 20px;
+      margin-left: 30px;
+      margin-top: 40px;
+      width: 600px;
+      z-index: 99999;
+    }
+  
+    .h1-under-g2 {
+      font-size: 15px;
+      font-weight: normal;
+      position: absolute;
+      width: 838px;
+      height: 112px;
+      left: 230px;
+      top: 50px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      line-height: 28px;
+      display: flex;
+      align-items: center;
+      color: #000000;
+  }
+  
+    .h1-under2 {
+      font-size: 15px;
+      font-weight: normal;
+      position: absolute;
+      width: 838px;
+      height: 112px;
+      left: 230px;
+      top: 50px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      line-height: 28px;
+      display: flex;
+      align-items: center;
+      color: #000000;
+  }
+  
+  .h1-under-k2{
+    font-size: 15px;
+    font-weight:normal;
+    position: absolute;
+    width: 838px;
+    height: 112px;
+    left: 230px;
+    top: 260px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+    
+    
+    }
+  
+  .pris-hund2 p{
+    color: #801100;
+    font-weight: 400px;
+  }
+  .kort-streg2{
+  position: absolute;
+  width: 161px;
+  height: 0px;
+  left: 120px;
+  top: 100px;
+  
+  border: 1.5px solid #801100;
+  transform: rotate(-90deg);
+  }
+  .kort-streg22{
+    position: absolute;
+    width: 161px;
+    height: 0px;
+    left: 120px;
+    top: 330px;
+    
+    border: 1.5px solid #801100;
+    transform: rotate(-90deg);
+    }
+    .kort-streg32{
+      position: absolute;
+      width: 161px;
+      height: 0px;
+      left: 120px;
+      top: 835px;
+      
+      border: 1.5px solid #801100;
+      transform: rotate(-90deg);
+      }
+    .lang-streg12{
+      position: absolute;
+      width: 161px;
+      height: 0px;
+      left: 120px;
+      top: 580px;
+      
+      border: 1.5px solid #801100;
+      transform: rotate(-90deg);
+      }
+  
+  .pris-kat2{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    }
+  
+    .pris-kat2 p{
+  color: #801100;
+    }
+  
+    .pris-gnaver2{
+      width: 100%;
+      height: 250px;
+      background-color: white;
+      border-radius: 15px;
+      display: flex;
+      }
+  
+      .pris-gnaver2 p {
+        color:#801100;
+      }
+  
+      .pris-krybdyr2{
+        width: 100%;
+        height: 200px;
+        background-color: white;
+        border-radius: 15px;
+        display: flex;
+        }
+  
+        
+  
+        .pris-krybdyr2 p{
+  color: #801100;
+        }
+  
+  
+  
+    .indeidiv2{
+      height: 100%;
+      width: 200px;
+      z-index: 9999;
+      display: flex;
+      flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              border-radius: 15px 0px 0px 15px;
+            }
+
+  /*nummer 2 bokse slut*/
+
+.tekst-nederst-paa-side{
+position: absolute;
+width: 1144px;
+height: 308px;
+left: 180px;
+top: 3540px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #801100;
+
+
+}
+
+.tekst-midt-paa-side{
+position: absolute;
+width: 1144px;
+height: 112px;
+left: 184px;
+top: 2200px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #801100;
+}
+
+
+.tekst-midt-paa-side-2{
+position: absolute;
+width: 910px;
+height: 55px;
+left: 146px;
+top: 2452px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 55px;
+/* identical to box height */
+text-align: center;
+
+color: #801100;
+
+}
+
+
+
+
+/*-----karosel dyr-------*/
+
+.carousel-container {
+    width: 100%; /* Adjust the width as needed */
+    max-width: 1300px;
+    overflow: hidden;
+    margin-left: 5%;
+    margin-top: 300px;
+    z-index: 999999;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    z-index: 99999;
+}
+
+.carousel-item {
+    min-width: calc(100% / 4);
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    height: 500px;
+    margin: 0 50px;
+    border-radius: 20px;
+    color: #801100;
+    font-size: 20px;
+    z-index: 99999;
+}
+
+.carousel-item button{
+background-color: #FEE7DF;
+color: #801100;
+border-radius: 15px;
+width: 95%;
+height: 40px;
+font-size: 20px;
+z-index: 99999;
+margin: 30px;
+margin-left: 10px;
+}
+
+.carousel-item button:hover{
+background-color:#f1f1f1;
+cursor: pointer;
+z-index: 99999;
+}
+
+.arrow {
+  position: absolute;
+  margin-top: 1850px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px 20px; /* Increased padding for better visibility */
+  cursor: pointer;
+  z-index: 99999;
+  border-radius: 50%; /* Circular shape */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+  font-size: 20px; /* Increase font size */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+
+}
+
+.left-arrow {
+    left: 0;
+    z-index: 99999;
+}
+
+.right-arrow {
+    right: 0;
+    z-index: 99999;
+}
+
+/*---------404-----------*/
+
+.pil1{
+
+position: absolute;
+width: 1015.42px;
+height: 374.47px;
+left: 321px;
+top: 184.53px;
+}
+
+
+.pil2{
+position: absolute;
+width: 40px;
+height: 58px;
+left: 319px;
+top: 229.5px;
+}
+
+.h1404{
+
+position: absolute;
+width: 231px;
+height: 175px;
+left: 570px;
+top: 265px;
+
+font-style: normal;
+font-weight: 700;
+font-size: 128px;
+line-height: 175px;
+
+text-align: center;
+
+color: #801100;
+
+}
+
+.p404{
+
+position: absolute;
+width: 764px;
+height: 37px;
+left: 340px;
+top: 440px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 37px;
+
+text-align: center;
+
+color: #801100;
+}
+
+.footer-priser{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+margin-top: 4200px;
+  color: white;
+}
+
+/* Skaber plads mellem elementerne i footeren */
+footer section{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 380px;
+}
+
+/* Gør overskrifterne i footeren bold */
+.footer_overskrift{
+  font-weight: bold;
+}
+
+.footer_grafik{
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  align-items: center;
+}
+
+#logo_footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#text_right{
+  text-align: right;
+}
+
+
+.footer-OMOS{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 3600px;
+
+  color: white;
+}
+
+/* Skaber plads mellem elementerne i footeren */
+footer section{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 380px;
+}
+
+/* Gør overskrifterne i footeren bold */
+.footer_overskrift{
+  font-weight: bold;
+}
+
+.footer_grafik{
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  align-items: center;
+}
+
+#logo_footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#text_right{
+  text-align: right;
+}
+
+.footer-404{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+margin-top: 900px;
+  color: white;
+}
+
+/* Skaber plads mellem elementerne i footeren */
+footer section{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 380px;
+}
+
+/* Gør overskrifterne i footeren bold */
+.footer_overskrift{
+  font-weight: bold;
+}
+
+.footer_grafik{
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  align-items: center;
+}
+
+#logo_footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#text_right{
+  text-align: right;
+}
+
+#BONE {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  left: 480px;
+  top: 112px;
+  z-index: -1;
+  }
+
+
+
+
+
+
+  /* ------ Body styling - Delt op i class, for at det ikke ændre på hinandens body'er ----- */
+.body_emilie1{
+  background-color: #FEE7DF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+
+  background-image: url(img/baggrund_dyrene.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* ------ Body styling igen - fordi der skal være forskellige baggrunde på hver side ----- */
+.body_emilie{
+  background-color: #FEE7DF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+
+  background-image: url(img/baggrund_proces.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* ------ h1 styling ----- */
+.h1_emilie{
+  font-family: "Nunito Sans", sans-serif;
+}
+
+/* ------ main styling ----- */
+.main_emilie{
+  margin-top: 200px;
+}
+
+/*--------------------------------------------
+-                                            -
+-               Navigationsbar               -
+-                                            -
+---------------------------------------------*/
+/* ------ logo styling ----- */
+.logo{
+  position: absolute;
+  width: 232px;
+  height: 232px;
+  left: 80px;
+  top: 33px;
+  z-index: 999;
+  }
+  
+  /*-------Menu----------*/
+  
+  .dropdown-container {
+    display: flex;
+    gap: 60px; 
+    position: absolute;
+  width: 143px;
+  height: 30px;
+  left: 441px;
+  top: 77px;
+  }
+  
+  /* Container for individual dropdown */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Style for dropdown button */
+  .dropbtn {
+    background-color: transparent;
+    color:#801100;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 180px;
+    font-weight: 400px;
+  }
+  
+  /* Container for dropdown content */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 180px;
+    border-radius: 0px 0px 10px 10px;
+  }
+  
+  /* Style for links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+    border-radius: 15px 15px 15px 15px;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button on hover */
+  .dropdown:hover .dropbtn {
+    background-color:white;
+    border-radius: 15px 15px 0px 0px;
+  }
+  
+  /*-------dropdown for sidste 2 punkter*/
+  
+  /* Change the background color of the dropdown button on hover */
+  .dropdown1:hover .dropbtn {
+    background-color:white;
+    border-radius: 15px 15px 15px 15px;
+  }
+
+/* BONE - adoption position */
+#BONE {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  left: 480px;
+  top: 112px;
+  z-index: -1;
+}
+
+/*--------------------------------------------
+-                                            -
+-                   FOOTER                   -
+-                                            -
+---------------------------------------------*/
+
+.footer_dyrene, .footer_proces{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+
+  color: white;
+}
+
+/* Skaber plads mellem elementerne i footeren */
+.footer_dyrene section{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 380px;
+}
+
+.footer_proces section{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 380px;
+}
+
+/* Gør overskrifterne i footeren bold */
+.footer_overskrift{
+  font-weight: bold;
+}
+
+/* - SOME links - skal stå på række - */
+.footer_grafik{
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  align-items: center;
+}
+
+/* - Logo'et i footeren skal tå i midten - */
+#logo_footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* - Teksten skal stå til højre - */
+#text_right{
+  text-align: right;
+}
+
+/*--------------------------------------------
+-                                            -
+-              DYR TIL ADOPTION              -
+-                                            -
+---------------------------------------------*/
+
+/* --- Overskrift --- */
+#dyrene_overskrift{
+  display: flex;
+  justify-content: center;
+
+  color: #801100;
+
+  margin-bottom: 40px;
+}
+
+/* ------------------- Valg af dyr kasser ------------------ */
+#de4kasser{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: white;
+
+  margin-bottom: 50px;
+  margin-top: 70px;
+}
+
+#de4kasser div{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Hver af de 4 skal være centreret */
+#de4kasser div a{
+  display: flex;
+  justify-content: center;
+}
+
+/* billederne i kasserne skal gøre procentvis mindre */
+#de4kasser div a img{
+  width: 80%;
+}
+
+/* --------------------- Dyrenes profiler --------------------- */
+#adopt_dyr_lille_profil{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 50px;
+}
+
+.profil{
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 375px;
+  row-gap: 20px;
+}
+
+/* - Billederne på profilerne - */
+.profil img{
+  border-radius: 20px;
+  width: 340px;
+  height: 250px;
+  margin-top: 15px;
+}
+
+.profilBillede{
+  display: flex;
+  justify-content: center;
+}
+
+/* - Teksten på profilerne - */
+.profilTekst{
+  text-align: center;
+  color: #801100;
+  line-height: 1.6;
+}
+
+/* - Knappen på profilerne - */
+.profilKnap {
+  background-color: #FEE7DF;
+  color: #801100;
+  padding: 10px 30px;
+  display: inline-block;
+  width: fit-content;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  margin: 0px 5px 15px 5px;
+
+  /* Tilføjer en hover-effekt */
+  transition: 0.3s;
+}
+
+/* Når musen er over knappen */
+.profilKnap:hover {
+  background-color: #801100;
+  color: white;
+}
+
+/* --- tal i bunden --- */
+#mellem_sider{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+#mellem_sider p{
+  color: white;
+}
+
+#mellem_sider a{
+  display: flex;
+  align-items: center;
+}
+
+#mellem_sider a img{
+  width: 25px;
+}
+
+
+
+/*--------------------------------------------
+-                                            -
+-             ADOPTIONSPROCESSEN             -
+-                                            -
+---------------------------------------------*/
+
+/* --- Overskrift --- */
+#adoptionsprocessen_overskrift{
+  display: flex;
+  justify-content: center;
+
+  color: #801100;
+
+  margin-bottom: 40px;
+}
+
+/* ----------- Boksene med processen ------------ */
+#proces_boks_container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 60px;
+}
+
+.proces_boks{
+  background-color: white;
+  color: #801100;
+  border-radius: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 375px;
+  height: 460px;
+  padding: 20px;
+
+  line-height: 1.6;
+}
+
+/* .proces_tekst{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  height: 450px;
+} */
+
+
+.body-quiz{
+  
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-image: url('img/Quiz\ baggrund.png'); /* Path to your background image */
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-repeat: no-repeat;
+
+}
+/* HEADER*/
+
+
+.logo{
+  position: absolute;
+  width: 232px;
+  height: 232px;
+  left: 80px;
+  top: 33px;
+  z-index: 999;
+  }
+ /* BONE */ 
+.bone-quiz{
+  position: absolute;
+  width: 139px;
+  height: 26px;
+  left: 16px;
+  top: 33px;
+  z-index: 0;
+
+  }
+
+.bone-help{
+  position: absolute;
+  width: 139px;
+  height: 26px;
+  left: 19px;
+  top: 33px;
+  z-index: 0;
+}
+
+  .bone-pleje{
+  position: absolute;
+  width: 122px;
+  height: 19px;
+  left: 507px;
+  top: 52px;
+  z-index: 0;
+  }
+  /*-------Menu----------*/
+  
+  .dropdown-container {
+    display: flex;
+    gap: 60px; 
+    position: absolute;
+  width: 143px;
+  height: 30px;
+  left: 441px;
+  top: 77px;
+  }
+  
+  /* Container for individual dropdown */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Style for dropdown button */
+  .dropbtn {
+    background-color: transparent;
+    color:#801100;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 180px;
+    font-weight: 400px;
+  }
+  
+  /* Container for dropdown content */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 180px;
+    border-radius: 0px 0px 10px 10px;
+  }
+  
+  /* Style for links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+    border-radius: 15px 15px 15px 15px;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button on hover */
+  .dropdown:hover .dropbtn {
+    background-color:white;
+    border-radius: 15px 15px 0px 0px;
+  }
+  
+  /*-------dropdown for sidste 2 punkter*/
+  
+  /* Change the background color of the dropdown button on hover */
+  .dropdown1:hover .dropbtn {
+    background-color:white;
+    border-radius: 15px 15px 15px 15px;
+  }
+/* Den øvereste title på siden*/
+.quiz-title{
+  font-family: "Nunito Sans", sans-serif;
+  padding-top: 21%;
+  margin-bottom: 5%;
+  text-align: center;
+  color: #801100;
+}
+/* baggrundsbillede - mønstret som kan ses */
+.bgi{
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  overflow-y: hidden;
+}
+.quiz-wrapper{
+width: 100%;
+padding: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.quiz-box{
+width: 750px;
+background-color:#FFFFFF;
+padding: 20px;
+border-radius: 30px;
+margin-left: 24%;
+}
+
+
+.spoergsmaal{
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #801100;
+}
+
+.svar-box{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 69px;
+  gap: 35px 15px;
+}
+
+.svar-box .box{
+width: calc(50% - 10px);
+position: relative;
+}
+.svar-valg{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.svar-box .box label .p.svar-valg{
+  text-align: center;
+}
+
+.svar-box .box label{
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #FEE7DF;
+color: #801100;
+padding: 20px 25px;
+border-radius: 20px;
+font-size: 18px;
+font-weight: 600;
+cursor: pointer;
+text-decoration: none !important; 
+}
+
+.hunde-box1, .hunde-box2{
+  background-color: #FFFFFF !important;
+}
+.hunde-valg{
+  text-align: center;
+  line-height: 1.6;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+
+}
+
+.hunde-img{
+  width: 89%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+
+/* hunde ting her*/
+.hunde-svar{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 69px;
+  gap: 35px 15px;
+}
+
+.hunde-svar .hunde-box{
+width: calc(50% - 10px);
+position: relative;
+border: 1px solid #801100;
+border-radius: 21px;
+}
+
+.hunde-svar .hunde-box label .p.svar-valg{
+  text-align: center;
+}
+
+.hunde-svar .hunde-box label{
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #FEE7DF;
+color: #801100;
+padding: 20px 25px;
+border-radius: 20px;
+font-size: 18px;
+font-weight: 600;
+}
+
+.read-more label{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FEE7DF;
+  color: #801100;
+  padding: 20px 25px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  width: 250px;
+  height: 32px;
+  margin-left: 13%;
+  margin-bottom: 5%;
+  cursor: pointer;
+  text-decoration: none;
+  }
+
+  p.laes {
+      margin-top: -5%;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 400;
+      text-decoration: none;
+
+  }
+
+  
+   .read-more label:hover{
+      background-color: #CCCCCC;
+      color:#FFFFFF;
+      
+  }
+
+      
+  .svar-box .box label:hover{
+      background-color: #801100;
+      color:#FFFFFF;
+  }
+/*
+                                                                      side omkring pleje og pasning af dyr 
+*/
+.pleje-bgi{
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  overflow-y: hidden;
+}
+
+.knap-wrapper{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+}
+
+button.dyre-knap {
+  width: 160px;
+  height: 160px;
+  border-radius: 109%;
+  margin: 0px 36px 0px 36px;
+  background-color: #FFFFFF;
+  cursor: pointer;
+
+}
+
+p.DYR {
+  position: relative;
+  top: 29%;
+  left: 2%;
+  color: #801100;
+  font-weight: 600;
+
+}
+
+p.dyr-udstyr {
+  position: relative;
+  top: 29%;
+  left: 2%;
+  color: #801100;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+p.pels-pleje {
+  position: relative;
+  top: 42%;
+  left: 2%;
+  color: #801100;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+¨
+p.pels-pleje {
+  position: relative;
+  top: 36%;
+  left: 2%;
+  color: #801100;
+  font-weight: 600;
+}
+
+p.VANER {
+  position: relative;
+  top: 32%;
+  left: 2%;
+  color: #801100;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+button.dyre-knap:hover {
+  border: 4px solid #801100; 
+}
+.info-headline{
+  font-family: "Nunito Sans", sans-serif;
+  text-align: center;
+  color: #801100;
+  margin-top: 10%;
+}
+.mere-info{
+  text-align: center;
+  color: #801100;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+p.hunde-pasning {
+  margin: 8%;
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+}
+
+.info-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.info-box1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 143px;
+  align-content: center;
+}
+
+.info-box2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 143px;
+  align-content: center;
+}
+
+button.circle {
+  width: 96px;
+  height: 96px;
+  background-color: transparent;
+  border-radius: 55%;
+  margin-left: 8%;
+}
+
+img.pleje-hund {
+  position: absolute;
+  margin-top: 3%;
+  height: 76%;
+
+}
+
+img.text-box {
+  position: absolute;
+  left: 2%;
+  width: 18%;
+  height: 17%;
+}
+
+button.text-info1 {
+  position: absolute;
+  margin-top: -2.49%;
+  margin-left: -20%;
+  width: 274px;
+  height: 146px;
+  border-radius: 30px;
+  background-color: #F5B1B0;
+}
+
+button.text-info2 {
+  position: absolute;
+  margin-top: 14.5%;
+  margin-left: -20%;
+  width: 274px;
+  height: 146px;
+  border-radius: 30px;
+  background-color: #f5b1b0;
+}
+
+button.text-info3 {
+  position: absolute;
+  margin-top: 29.5%;
+  margin-left: -20%;
+  width: 274px;
+  height: 146px;
+  border-radius: 30px;
+  background-color: #f5b1b0;
+}
+
+button.text-info1-2 {
+  position: absolute;
+  margin-top: -2.49%;
+  margin-left: 8%;
+  width: 274px;
+  height: 146px;
+  border-radius: 30px;
+  background-color: #F5B1B0;
+}
+
+button.text-info2-1 {
+  position: absolute;
+  margin-top: 14.5%;
+  margin-left: 8%;
+  width: 274px;
+  height: 146px;
+  border-radius: 30px;
+  background-color: #f5b1b0;
+}
+
+button.text-info3-1 {
+  position: absolute;
+  margin-top: 29.5%;
+  margin-left: 8%;
+  width: 274px;
+  height: 146px;
+  border-radius: 30px;
+  background-color: #f5b1b0;
+}
+
+.info-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.info-box {
+  display: none;
+  background-color: #F5B1B0;
+  padding: 20px;
+  border: 4px solid #801100;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  width: 910px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+p.info-box-text {
+  margin: 8px 32px 0 32px;
+  font-size: medium;
+}
+
+/*
+                                                                      nød pasning + 1812
+*/
+.headline-noed-hjaelp{
+  font-family: "Nunito Sans", sans-serif;
+  margin-top: 12%;
+  padding-top: 8%;
+  text-align: center;
+  color: #801100;
+  font-size: 48px;
+}
+.help-bgi{
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  overflow-y: hidden;
+}
+.help-container {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+  margin-top: 26%;
+  background-color: #D85C5A;
+}
+
+p.heelp-headline {
+  text-align: center;
+  font-size: 78px;
+  margin-top: 1%;
+  font-style: italic;
+}
+
+p.help-text {
+  text-align: center;
+  font-size: 48px;
+}
+
+.sussie-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 51%;
+  height: 373px;
+  margin-top: 57%;
+  background-color: #F5B1B0;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 30px;
+}
+
+p.sussie-text {
+  position: absolute;
+  right: -65%;
+  font-size: 34px;
+  top: 31%;
+  font-family: "Nunito Sans", sans-serif;
+}
+p.sussie-headline {
+  margin: 8%;
+  font-size: 24px;
+  font-family: "Nunito Sans", sans-serif;
+  color: #801100;
+}
+
+
+
+.mussie-container {
+  position: absolute;
+  display: flex;
+  width: 51%;
+  height: 373px;
+  margin-top: 101%;
+  margin-left: 49%;
+  background-color: #F5B1B0;
+  flex-direction: row-reverse;
+  align-items: center;
+  border-radius: 30px;
+}
+
+p.mussie-text {
+  position: absolute;
+  left: -78%;
+  font-size: 32px;
+  top: 41%;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+p.mussie-headline {
+  margin: 8%;
+  font-size: 24px;
+  font-family: "Nunito Sans", sans-serif;
+  color: #801100;
+}
+
+img.data {
+  position: absolute;
+  top: 312%;
+  width: 75%;
+  left: 12.5%;
+}
+
+h2.lussie {
+  position: absolute;
+  margin-left: 45%;
+  top: 305%;
+  font-size: 48px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.nood-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 51%;
+  height: 373px;
+  margin-top: 200%;
+  background-color: #F5B1B0;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 30px;
+}
+
+p.nood-text {
+  margin: 8%;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  color: #801100;
+}
+
+  h3.nood-headline {
+      position: absolute;
+      right: -65%;
+      font-size: 34px;
+      top: 0%;
+  }
+  ul.nood-liste {
+      position: absolute;
+      right: -94%;
+      font-size: 21px;
+      top: 31%;
+      list-style:circle !important;
+  }
+
+  ol {
+      margin: 3%;
+      list-style: circle !important;
+  }
+
+  /*--------------------------------------------
+-                                            -
+-                   FOOTER                   -
+-                                            -
+---------------------------------------------*/
+
+.footer-pleje{
+
+  margin-top: 990px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: white;
+}
+
+.help-footer{
+  margin-top: 3790px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: white;
+  
+}
+
+/*
+                                                                          footer
+*/
+.quiz-footer{
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: white;
+}
+/* Skaber plads mellem elementerne i footeren */
+footer section{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 380px;
+}
+
+/* Gør overskrifterne i footeren bold */
+.footer_overskrift{
+  font-weight: bold;
+}
+
+.footer_grafik{
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  align-items: center;
+}
+
+#logo_footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#text_right{
+  text-align: right;
+}
+
+
+
+/* ------------------------------------------HEADER--------------------------------------*/
+
+.logo{
+  position: absolute;
+  width: 232px;
+  height: 232px;
+  left: 80px;
+  top: 33px;
+  z-index: 999;
+  }
+  
+  /*-----------------------------------------MENU-----------------------------------------*/
+  
+  .dropdown-container {
+    display: flex;
+    gap: 60px; 
+    position: absolute;
+  width: 143px;
+  height: 30px;
+  left: 441px;
+  top: 77px;
+  }
+  
+  /* Container for individual dropdown */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Style for dropdown button */
+  .dropbtn {
+    background-color: transparent;
+    color:#801100;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 180px;
+    font-weight: 400px;
+  }
+  
+  /* Container for dropdown content */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 180px;
+    border-radius: 0px 0px 10px 10px;
+  }
+  
+  /* Style for links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+    border-radius: 15px 15px 15px 15px;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button on hover */
+  .dropdown:hover .dropbtn {
+    background-color:white;
+    border-radius: 15px 15px 0px 0px;
+  }
+  
+  /*-------dropdown for sidste 2 punkter*/
+  
+  /* Change the background color of the dropdown button on hover */
+  .dropdown1:hover .dropbtn {
+    background-color:white;
+    border-radius: 15px 15px 15px 15px;
+  }
+
+/* ------------------------------------------HEADER SLUT--------------------------------------*/
+
+
+
+
+/* ------------------------------------------BODY START--------------------------------------*/
+
+
+
+.body-herman-king {
+  background-image: url('img/HERMANBACKGROUND.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  margin-top: 130px;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center; /* Centrerer containeren horisontalt */
+  align-items: center; /* Centrerer containeren vertikalt */
+  height: 100vh; /* Gør at body fylder hele viewport-højden */
+  
+}
+
+/* ------------------------------------------BODY SLUT--------------------------------------*/
+
+
+/* ------------------------------------------BONE START--------------------------------------*/
+#BONE {
+position: absolute;
+width: 100px;
+height: 20px;
+left: 480px;
+top: 112px;
+z-index: 1
+}
+
+/* ------------------------------------------BONE SLUT--------------------------------------*/
+
+
+
+/* --------------------------------------TILBAGE KNAP START--------------------------------------*/
+
+
+.TILBAGE_KNAP {
+  background-color: #801100; /* Baggrundsfarve */
+  color: white; /* Tekstfarve */
+  padding: 10px 20px; /* Indvendig margin (padding) */
+  text-align: center; /* Centrer tekst */
+  text-decoration: none; /* Fjern tekstdekoration (f.eks. understregning) */
+  display: inline-block; /* Vis som inline-blok */
+  font-size: 16px; /* Skriftstørrelse */
+  margin: 4px 2px; /* Udvendig margin */
+  cursor: pointer; /* Markør når man holder musen over knappen */
+  border-radius: 30px; /* Runde hjørner */
+  position: absolute;
+  top: 270px;
+  left: 250px;
+}
+
+/* Tilføj en hover-effekt */
+.TILBAGE_KNAP:hover {
+  background-color: #a01a1a; /* Mørkere rød farve ved hover */
+}
+
+
+
+/* ---------------------------------------TILBAGE KNAP SLUT--------------------------------------*/
+
+
+
+/* ---------------------------------------TILBAGE KNAP SLUT--------------------------------------*/
+
+
+/* -------------------DEN FØRSTE DEL AF SIDEN MED BILLEDE OG BIO START-------------------------------------*/
+
+.HERMAN_KING_NAVN  {
+  color: #801100;
+  top: 20px;
+  margin-bottom: 60px;
+}
+.container {
+  display: flex;
+  flex-direction: column; /* Gør containeren vertikal */
+  align-items: center; /* Centrerer indholdet horisontalt */
+  background-color: rgba(255, 255, 255, 0); /* Tilføj baggrundsfarve med gennemsigtighed */
+  padding: 20px;
+  border-radius: 10px; /* Valgfrit, hvis du vil have runde hjørner på containeren */
+  text-align: center; /* Centrerer teksten horisontalt */
+  line-height: 1.5; 
+  
+}
+
+.content-wrapper {
+  display: flex;
+  align-items: flex-start;
+  width: 950px;
+}
+
+.left-image {
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+
+.left-image img {
+  width: 80px;
+  height: auto;
+  border-radius: 30px;
+}
+
+
+.content {
+  flex: 1;
+  text-align: left; /* Sørg for at teksten i content er venstrejusteret */
+  margin-left: 50px;
+}
+
+
+
+/* Container stilarter */
+.container {
+  padding: 20px;
+}
+
+.container .LEJLA {
+  text-align: center;
+  font-size: 2em;
+}
+
+.container .content-wrapper {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+/* Stilarter for billedskift */
+.container .HERMAN_IMAGES {
+  position: relative;
+  width: 50%;
+ 
+}
+
+.container .HERMAN_IMAGES img {
+  width: 100%;
+  height: 550px;
+  border-radius: 30px;
+  display: none; /* Skjul alle billeder som standard */
+}
+
+.container .HERMAN_IMAGES img.active {
+  display: block; /* Vis kun det aktive billede */
+}
+
+/* Pile til billedskift */
+.container .HERMAN_IMAGES .arrow {
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  user-select: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 50%;
+}
+
+#next {
+  right: 0;
+}
+
+#prev {
+  left: 0;
+}
+
+/* Pilens hover-effekt */
+.container .HERMAN_IMAGES .arrow:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+
+
+
+
+/* --------------------DEN FØRSTE DEL AF SIDEN MED BILLEDE OG BIO SLUT-------------------------------------*/
+
+
+
+
+/*-----------------------------------------IKONER START------------------------------------------*/
+
+
+.ikonerking {
+  width: 1000px;
+  height: 150px;
+  background-color: rgba(202, 74, 73, 1);
+  color:white ;
+  position: absolute;
+  margin-top: 1000px;
+  flex-direction: row; 
+  display: flex;
+  border-radius: 30px;
+  justify-content: space-between;
+
+  text-align: center; /* Centrerer teksten horisontalt */
+
+
+}
+
+.MALEIKON img{
+  width: 50px;
+  height: 50px;
+  margin-left: 50px;
+}
+
+.MALEIKON p{
+  margin-left: 60px;
+}
+
+
+.HUNDEIKON img{
+  width: 50px;
+  height: 50px;
+}
+
+.KAGE img{
+  width: 50px;
+  height: 50px;
+}
+
+.PELS img{
+  width: 50px;
+  height: 50px;
+
+
+}
+
+.CHIPPED img{
+  width: 50px;
+  height: 50px;
+}
+
+.STREGER img{
+  margin-top: 20px;
+  height: 95px;
+}
+
+
+
+/*-----------------------------------------IKONER SLUT------------------------------------------*/
+
+
+
+/*------------------------------NEDERSTE BIO MED IKONER START------------------------------------------*/
+
+.ANDEN_BESKRIVELSE_HUSIKON{
+top: 1150px;
+position: absolute;
+height: 300px;
+display: flex;
+flex-direction: row; /* Gør containeren vertikal */
+align-items: center; /* Centrerer indholdet horisontalt */
+background-color: rgba(255, 255, 255, 0); /* Tilføj baggrundsfarve med gennemsigtighed */
+margin-left: 260px;
+margin-right: 260px;
+line-height: 1.5; 
+ 
+}
+
+.ANDEN_BESKRIVELSE_HUSIKON img{
+  margin-right: 60px;
+  }
+
+/* Sørg for at teksten i content er venstrejusteret */
+
+.ANDEN_BESKRIVELSE_HUNDBOLD{
+  top: 1350px;
+  position: absolute;
+  height: 300px;
+  display: flex;
+  flex-direction: row; /* Gør containeren vertikal */
+  align-items: center; /* Centrerer indholdet horisontalt */
+  background-color: rgba(255, 255, 255, 0); /* Tilføj baggrundsfarve med gennemsigtighed */
+  margin-left: 260px;
+  margin-right: 260px;
+  line-height: 1.5; 
+     
+  }
+  
+  .ANDEN_BESKRIVELSE_HUNDBOLD img{
+      margin-right: 60px;
+      }
+
+
+/* --------------------Sørg for at teksten i content er venstrejusteret */
+
+.ANDEN_BESKRIVELSE_INFOIKON{
+  top: 1550px;
+  position: absolute;
+  height: 300px;
+  display: flex;
+  flex-direction: row; /* Gør containeren vertikal */
+  align-items: center; /* Centrerer indholdet horisontalt */
+  background-color: rgba(255, 255, 255, 0); /* Tilføj baggrundsfarve med gennemsigtighed */
+  margin-left: 260px;
+  margin-right: 260px;
+  line-height: 1.5; 
+     
+  }
+  
+  .ANDEN_BESKRIVELSE_INFOIKON img{
+      margin-right: 60px;
+      }
+
+
+      /* Sørg for at teksten i content er venstrejusteret */
+
+.ANDEN_BESKRIVELSE_TELEFONIKON{
+  top: 1750px;
+  position: absolute;
+  height: 300px;
+  display: flex;
+  flex-direction: row; /* Gør containeren vertikal */
+  align-items: center; /* Centrerer indholdet horisontalt */
+  background-color: rgba(255, 255, 255, 0); /* Tilføj baggrundsfarve med gennemsigtighed */
+  margin-left: 260px;
+  margin-right: 260px;
+  line-height: 1.5; 
+     
+  }
+  
+  .ANDEN_BESKRIVELSE_TELEFONIKON img{
+      margin-right: 60px;
+      }
+
+
+
+/*--------------------------------NEDERSTE BIO MED IKONER SLUT------------------------------------------*/
+
+
+/* ------------------------------------MERE VIDEN KNAP START----------------------------------- */
+
+
+.MERE_VIDEN_KNAP {
+  background-color: #801100; /* Baggrundsfarve */
+  color: white; /* Tekstfarve */
+  padding: 20px 20px; /* Indvendig margin (padding) */
+  text-align: center; /* Centrer tekst */
+  text-decoration: none; /* Fjern tekstdekoration (f.eks. understregning) */
+  display: inline-block; /* Vis som inline-blok */
+  font-size: 16px; /* Skriftstørrelse */
+  margin: 4px 2px; /* Udvendig margin */
+  cursor: pointer; /* Markør når man holder musen over knappen */
+  border-radius: 30px; /* Runde hjørner */
+  position: absolute;
+  top: 2050px;
+}
+
+/* Tilføj en hover-effekt */
+.MERE_VIDEN_KNAP:hover {
+  background-color: #a01a1a; /* Mørkere rød farve ved hover */
+}
+
+
+
+
+/* ------------------------------------MERE VIDEN KNAP SLUT----------------------------------- */
+
+
+
+/* ---------------------------------------FOOTEREN----------------------------------- */
+
+.HERMAN_OG_KING {
+  margin-top: 3800px;
+  position: absolute;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+ 
+  align-items: center;
+
+  color: white;
+}
+
+/* Skaber plads mellem elementerne i footeren */
+.HERMAN_OG_KING section{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 580px;
+}
+
+/* Gør overskrifterne i footeren bold */
+.footer_overskrift{
+  font-weight: bold;
+}
+
+.footer_grafik{
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  align-items: center;
+}
+
+#logo_footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#text_right{
+  text-align: right;
+}
+
+.bone-paa-pleje{
+
+position: absolute;
+width: 100px;
+height: 20px;
+left: 963px;
+top: 120px;
+z-index: -1;
+width: 100px;
+}
+
+.BONE-OmOs{
+
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  left: 1200px;
+  top: 115px;
+  z-index: -1;
+  
+    }
+
+  .BONE-dyrinoed{
+    position: absolute;
+  width: 100px;
+  height: 20px;
+  left: 723px;
+  top: 115px;
+  z-index: -1;
+  }
+
+  .BONE-priser{ 
+    position: absolute;
+  width: 100px;
+  height: 20px;
+  left: 480px;
+  top: 115px;
+  z-index: -1;
+   }
+
+   .BONE-dyr-side{ 
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    left: 480px;
+    top: 115px;
+    z-index: -1;
+   }
+
+   .BONE-adoption{ 
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    left: 480px;
+    top: 115px;
+    z-index: -1;
+   }
+
+   .BONE-quiz{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    left: 480px;
+    top: 115px;
+    z-index: -1;
+   }
